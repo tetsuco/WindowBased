@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FE675B140E99E200555A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE675A140E99E200555A5C /* UIKit.framework */; };
+		10FE675D140E99E200555A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE675C140E99E200555A5C /* Foundation.framework */; };
+		10FE675F140E99E200555A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE675E140E99E200555A5C /* CoreGraphics.framework */; };
+		10FE6765140E99E200555A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FE6763140E99E200555A5C /* InfoPlist.strings */; };
+		10FE6768140E99E200555A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE6767140E99E200555A5C /* main.m */; };
+		10FE676B140E99E200555A5C /* WindowBasedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE676A140E99E200555A5C /* WindowBasedAppDelegate.m */; };
+		10FE676E140E99E200555A5C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FE676C140E99E200555A5C /* MainWindow.xib */; };
+		10FE6775140E99E300555A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE675A140E99E200555A5C /* UIKit.framework */; };
+		10FE6776140E99E300555A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE675C140E99E200555A5C /* Foundation.framework */; };
+		10FE6777140E99E300555A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FE675E140E99E200555A5C /* CoreGraphics.framework */; };
+		10FE677F140E99E300555A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FE677D140E99E300555A5C /* InfoPlist.strings */; };
+		10FE6782140E99E300555A5C /* WindowBasedTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 10FE6781140E99E300555A5C /* WindowBasedTests.h */; };
+		10FE6784140E99E300555A5C /* WindowBasedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE6783140E99E300555A5C /* WindowBasedTests.m */; };
+		10FE6798140E9AD100555A5C /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE6796140E9AD100555A5C /* NewViewController.m */; };
+		10FE6799140E9AD100555A5C /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FE6797140E9AD100555A5C /* NewViewController.xib */; };
+		10FE67A5140EA5CD00555A5C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FE67A3140EA5CD00555A5C /* SecondViewController.m */; };
+		10FE67A6140EA5CD00555A5C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FE67A4140EA5CD00555A5C /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10FE6778140E99E300555A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10FE674D140E99E200555A5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10FE6755140E99E200555A5C;
+			remoteInfo = WindowBased;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FE6756140E99E200555A5C /* WindowBased.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowBased.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE675A140E99E200555A5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10FE675C140E99E200555A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10FE675E140E99E200555A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10FE6762140E99E200555A5C /* WindowBased-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WindowBased-Info.plist"; sourceTree = "<group>"; };
+		10FE6764140E99E200555A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10FE6766140E99E200555A5C /* WindowBased-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WindowBased-Prefix.pch"; sourceTree = "<group>"; };
+		10FE6767140E99E200555A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10FE6769140E99E200555A5C /* WindowBasedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowBasedAppDelegate.h; sourceTree = "<group>"; };
+		10FE676A140E99E200555A5C /* WindowBasedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowBasedAppDelegate.m; sourceTree = "<group>"; };
+		10FE676D140E99E200555A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		10FE6774140E99E200555A5C /* WindowBasedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowBasedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FE677C140E99E300555A5C /* WindowBasedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WindowBasedTests-Info.plist"; sourceTree = "<group>"; };
+		10FE677E140E99E300555A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10FE6780140E99E300555A5C /* WindowBasedTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WindowBasedTests-Prefix.pch"; sourceTree = "<group>"; };
+		10FE6781140E99E300555A5C /* WindowBasedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowBasedTests.h; sourceTree = "<group>"; };
+		10FE6783140E99E300555A5C /* WindowBasedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowBasedTests.m; sourceTree = "<group>"; };
+		10FE6795140E9AD000555A5C /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		10FE6796140E9AD100555A5C /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		10FE6797140E9AD100555A5C /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		10FE67A2140EA5CC00555A5C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		10FE67A3140EA5CD00555A5C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		10FE67A4140EA5CD00555A5C /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FE6753140E99E200555A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE675B140E99E200555A5C /* UIKit.framework in Frameworks */,
+				10FE675D140E99E200555A5C /* Foundation.framework in Frameworks */,
+				10FE675F140E99E200555A5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE6770140E99E200555A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE6775140E99E300555A5C /* UIKit.framework in Frameworks */,
+				10FE6776140E99E300555A5C /* Foundation.framework in Frameworks */,
+				10FE6777140E99E300555A5C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FE674B140E99E200555A5C = {
+			isa = PBXGroup;
+			children = (
+				10FE6760140E99E200555A5C /* WindowBased */,
+				10FE677A140E99E300555A5C /* WindowBasedTests */,
+				10FE6759140E99E200555A5C /* Frameworks */,
+				10FE6757140E99E200555A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10FE6757140E99E200555A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FE6756140E99E200555A5C /* WindowBased.app */,
+				10FE6774140E99E200555A5C /* WindowBasedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FE6759140E99E200555A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10FE675A140E99E200555A5C /* UIKit.framework */,
+				10FE675C140E99E200555A5C /* Foundation.framework */,
+				10FE675E140E99E200555A5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10FE6760140E99E200555A5C /* WindowBased */ = {
+			isa = PBXGroup;
+			children = (
+				10FE6769140E99E200555A5C /* WindowBasedAppDelegate.h */,
+				10FE676A140E99E200555A5C /* WindowBasedAppDelegate.m */,
+				10FE676C140E99E200555A5C /* MainWindow.xib */,
+				10FE6761140E99E200555A5C /* Supporting Files */,
+				10FE6795140E9AD000555A5C /* NewViewController.h */,
+				10FE6796140E9AD100555A5C /* NewViewController.m */,
+				10FE6797140E9AD100555A5C /* NewViewController.xib */,
+				10FE67A2140EA5CC00555A5C /* SecondViewController.h */,
+				10FE67A3140EA5CD00555A5C /* SecondViewController.m */,
+				10FE67A4140EA5CD00555A5C /* SecondViewController.xib */,
+			);
+			path = WindowBased;
+			sourceTree = "<group>";
+		};
+		10FE6761140E99E200555A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FE6762140E99E200555A5C /* WindowBased-Info.plist */,
+				10FE6763140E99E200555A5C /* InfoPlist.strings */,
+				10FE6766140E99E200555A5C /* WindowBased-Prefix.pch */,
+				10FE6767140E99E200555A5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10FE677A140E99E300555A5C /* WindowBasedTests */ = {
+			isa = PBXGroup;
+			children = (
+				10FE6781140E99E300555A5C /* WindowBasedTests.h */,
+				10FE6783140E99E300555A5C /* WindowBasedTests.m */,
+				10FE677B140E99E300555A5C /* Supporting Files */,
+			);
+			path = WindowBasedTests;
+			sourceTree = "<group>";
+		};
+		10FE677B140E99E300555A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FE677C140E99E300555A5C /* WindowBasedTests-Info.plist */,
+				10FE677D140E99E300555A5C /* InfoPlist.strings */,
+				10FE6780140E99E300555A5C /* WindowBasedTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FE6755140E99E200555A5C /* WindowBased */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE6787140E99E300555A5C /* Build configuration list for PBXNativeTarget "WindowBased" */;
+			buildPhases = (
+				10FE6752140E99E200555A5C /* Sources */,
+				10FE6753140E99E200555A5C /* Frameworks */,
+				10FE6754140E99E200555A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowBased;
+			productName = WindowBased;
+			productReference = 10FE6756140E99E200555A5C /* WindowBased.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10FE6773140E99E200555A5C /* WindowBasedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FE678A140E99E300555A5C /* Build configuration list for PBXNativeTarget "WindowBasedTests" */;
+			buildPhases = (
+				10FE676F140E99E200555A5C /* Sources */,
+				10FE6770140E99E200555A5C /* Frameworks */,
+				10FE6771140E99E200555A5C /* Resources */,
+				10FE6772140E99E200555A5C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FE6779140E99E300555A5C /* PBXTargetDependency */,
+			);
+			name = WindowBasedTests;
+			productName = WindowBasedTests;
+			productReference = 10FE6774140E99E200555A5C /* WindowBasedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FE674D140E99E200555A5C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 10FE6750140E99E200555A5C /* Build configuration list for PBXProject "WindowBased" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10FE674B140E99E200555A5C;
+			productRefGroup = 10FE6757140E99E200555A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FE6755140E99E200555A5C /* WindowBased */,
+				10FE6773140E99E200555A5C /* WindowBasedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FE6754140E99E200555A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE6765140E99E200555A5C /* InfoPlist.strings in Resources */,
+				10FE676E140E99E200555A5C /* MainWindow.xib in Resources */,
+				10FE6799140E9AD100555A5C /* NewViewController.xib in Resources */,
+				10FE67A6140EA5CD00555A5C /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE6771140E99E200555A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE677F140E99E300555A5C /* InfoPlist.strings in Resources */,
+				10FE6782140E99E300555A5C /* WindowBasedTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10FE6772140E99E200555A5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FE6752140E99E200555A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE6768140E99E200555A5C /* main.m in Sources */,
+				10FE676B140E99E200555A5C /* WindowBasedAppDelegate.m in Sources */,
+				10FE6798140E9AD100555A5C /* NewViewController.m in Sources */,
+				10FE67A5140EA5CD00555A5C /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10FE676F140E99E200555A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FE6784140E99E300555A5C /* WindowBasedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10FE6779140E99E300555A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10FE6755140E99E200555A5C /* WindowBased */;
+			targetProxy = 10FE6778140E99E300555A5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10FE6763140E99E200555A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE6764140E99E200555A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10FE676C140E99E200555A5C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE676D140E99E200555A5C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		10FE677D140E99E300555A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE677E140E99E300555A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FE6785140E99E300555A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10FE6786140E99E300555A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		10FE6788140E99E300555A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindowBased/WindowBased-Prefix.pch";
+				INFOPLIST_FILE = "WindowBased/WindowBased-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10FE6789140E99E300555A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindowBased/WindowBased-Prefix.pch";
+				INFOPLIST_FILE = "WindowBased/WindowBased-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10FE678B140E99E300555A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WindowBased.app/WindowBased";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindowBasedTests/WindowBasedTests-Prefix.pch";
+				INFOPLIST_FILE = "WindowBasedTests/WindowBasedTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		10FE678C140E99E300555A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WindowBased.app/WindowBased";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WindowBasedTests/WindowBasedTests-Prefix.pch";
+				INFOPLIST_FILE = "WindowBasedTests/WindowBasedTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FE6750140E99E200555A5C /* Build configuration list for PBXProject "WindowBased" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE6785140E99E300555A5C /* Debug */,
+				10FE6786140E99E300555A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FE6787140E99E300555A5C /* Build configuration list for PBXNativeTarget "WindowBased" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE6788140E99E300555A5C /* Debug */,
+				10FE6789140E99E300555A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10FE678A140E99E300555A5C /* Build configuration list for PBXNativeTarget "WindowBasedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FE678B140E99E300555A5C /* Debug */,
+				10FE678C140E99E300555A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FE674D140E99E200555A5C /* Project object */;
+}
